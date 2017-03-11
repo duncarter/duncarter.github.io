@@ -1,2 +1,4 @@
 name: Duncan Carter, what?
 markdown: kramdown
+
+permalnk: /blog/:title
