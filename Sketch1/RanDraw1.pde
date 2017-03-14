@@ -1,5 +1,6 @@
 int w = 600;
 int h = 600;
+float t;
 
 void setup(){
   size(600, 600);
@@ -10,13 +11,16 @@ void setup(){
 }
 
 void draw(){
-  background(255);
+  
   beginShape();
+  if (t%20 == 0) {
+  background(255);
   vertex(random(w), random(h));
     for(int i=0; i<4; i++ ){
       bezierVertex(random (w), random(h), random (w), random(h), random (w), random(h));
       }
   endShape(CLOSE);
   //saveFrame();
-  delay(120);
+  }
+  t++;
 }
