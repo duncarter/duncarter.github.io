@@ -8,6 +8,7 @@ $p.size(600, 600);
   $p.stroke(0);
   $p.strokeWeight(7);
   $p.fill(0);
+  noLoop();
 }
 $p.setup = setup;
 
@@ -22,3 +23,11 @@ $p.bezierVertex($p.random (w), $p.random(h), $p.random (w), $p.random(h), $p.ran
      $p.delay(120);
 }
 $p.draw = draw;
+
+void mousePressed() 
+
+{
+
+  loop();
+
+}
