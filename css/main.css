@@ -44,6 +44,7 @@ ul.posts li {
 
 .photogrid {
   /* Prevent vertical gaps */
+    width: 100%
   line-height: 0;
    
   -webkit-column-count: 4;
