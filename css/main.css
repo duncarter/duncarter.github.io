@@ -21,13 +21,18 @@ a:hover {
 }
 .fade {
    opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+    background: default;
+   transition: opacity .1s ease-in-out;
+   -moz-transition: opacity .1s ease-in-out;
+   -webkit-transition: opacity .1s ease-in-out;
+    transition: background .1s ease-in-out;
+   -moz-transition: background .1s ease-in-out;
+   -webkit-transition: background .1s ease-in-out;
    }
 
    .fade:hover {
       opacity: 0.5;
+      background: #5d5d5d;
       }
 
 h1 {
