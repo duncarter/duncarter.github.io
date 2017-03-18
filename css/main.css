@@ -31,7 +31,7 @@ a:hover {
    .fade:hover {
     background-color:#000;
     opacity:0.5;
-    display: block;
+    display: inline-block;
       }
 
 h1 {
