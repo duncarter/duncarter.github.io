@@ -29,7 +29,7 @@ a:hover {
    }
 
    .fade:hover {
-    
+    background:default;
     filter: brightness(60%);
     -moz-filter: brightness(60%);  
     -webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
