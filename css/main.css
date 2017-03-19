@@ -74,6 +74,13 @@ ul.posts li {
     list-style: none;
 }
 
+.mainIMG{
+    max-width: 80%;
+    max-height: 800px;
+    align-content: center;
+    
+}
+
 .photogrid {
   /* Prevent vertical gaps */
     width: 100%;
